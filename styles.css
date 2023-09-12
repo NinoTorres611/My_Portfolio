@@ -1,0 +1,174 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+transition: all ease 0.75s;
+}
+
+header {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 0 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+ 
+img {
+    height: 450px;
+    width: 400px;
+}
+
+.perfil {
+    margin: 96px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    gap: 80px;
+
+}
+
+.personaldescription { 
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 400px;
+
+}
+.personaldescription h1 {
+    font-size: 35px;
+    font-style: inherit;
+    font-weight: bold;
+
+}
+
+.personaldescription h2 {
+    font-size: 21px;
+}
+
+.personaldescription p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.match{
+    display: flex;
+    justify-content: center;
+    gap: 80px;   
+}
+
+.weare{
+    width: 400px;  
+}
+
+.weare div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 90px;
+    text-align: justify;
+    width: 400px;
+    height: 432px;
+}
+
+.weare h1{
+    font-size: 46px;
+    color: #0027AA;
+}
+
+.weare h3 {
+    color: #0027AA;
+    font-size: 20px;
+}
+
+.skills{
+    height: 100%;
+    width: 400px;
+    
+}
+.skills ul{
+    font-size: 17px;
+    font-weight: 80;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    position: relative;  
+}
+.minicv{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 90px;
+}
+.minicv h1{
+    color: #0027AA;
+    font-size: 46px;
+}
+
+.minicv h2 {
+    size: 25px;
+}
+
+.minicv h3 {
+    size: 14px;
+}
+.izq {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;  
+    width: 400px; 
+}
+
+.der {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative; 
+    width: 400px;  
+}
+
+button{
+    color: #0027aa;
+    height:40px;
+
+}
+
+.btn{
+    background-color: #0027AA;
+    color: #fff;
+    border: none;
+    content: 'Lets talk';
+    width: 142px;
+    height: 40px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #0027AA;
+    border: solid black;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+a:hover{
+    color: #0027AA;
+}
+
+.minicv p {
+    font-style: oblique;
+}
+    
